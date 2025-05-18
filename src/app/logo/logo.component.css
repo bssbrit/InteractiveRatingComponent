@@ -1,0 +1,12 @@
+div{
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+img {
+    display: block;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:host {
+  font-family: 'Overpass', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2rem;
+  max-width: 400px;   /* Limits width on large screens */
+  width: 100%;        /* Fills available space */
+  min-width: 250px;   /* Prevents being too small */
+  min-height: 250px;
+  margin: 1rem auto;
+  border-radius: 10px;
+  background-color: hsl(216, 12%, 8%)
+}
+
+p, li{
+    margin: 0;
+    color: hsl(217, 12%, 63%);
+}
+
+
+@media (max-width: 450px) {
+  :host {
+    padding: 1rem;
+    max-width: 90vw;
+    max-height: 400px;
+    
+    
+   
+    
+  }
+  p, h3, li{
+    padding: 0;
+    margin: 0;
+  }
+}

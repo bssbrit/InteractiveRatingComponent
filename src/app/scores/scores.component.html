@@ -1,0 +1,12 @@
+<ul>
+  @for(rate of rates;track rate){
+    <li (click)="selectRate($event)"
+    [class.selected]="selectedRate === rate">
+    {{rate}}
+</li>
+    
+  }
+</ul>
+<div>
+    <button mat-button color="primary" >Submit</button>
+</div>
